@@ -71,7 +71,7 @@ Unpacking objects: 100% (47/47), done.
 - Then, go to Wiki [here](https://github.com/username/Abra-Collaboratory/wiki) and create an empty homepage (example shown below):
 <img src="https://github.com/callahantiff/Abra-Collaboratory/blob/master/resources/documentation/images/wiki/wiki_clone.png">
 
-- Once you have crated the wiki page, complete the final steps, in the order shown below.
+- Once you have created the wiki page, complete the final steps, in the order shown below.
 ```bash
 $ cd Abra-Collaboratory.wiki
 $ git fetch
