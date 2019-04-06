@@ -1,19 +1,17 @@
 # Abra-Collaboratory
 <img src="https://img.shields.io/badge/ReproducibleResearch-AbraCollaboratory-magenta.svg?style=plastic" alt="git-AbraCollaboratory">
-This repository contains more than just code, it provides a framework for reproducible research and collaboration in the form of a detailed and transparent narrative of a project's research process. This repository documents our attempt to create a reproducible research platform using native GitHub functionality. Why GitHub? Honestly, because there are several built-in functions that make it well-suited for out-of-the-box use as a reproducible research platform.
 
-If you are new to GitHub or if you'd like to better understand how we leverage GitHub for reproducible research, we recommend that you start with our [Tutorial](https://github.com/callahantiff/Abra-Collaboratory/wiki/Using-GitHub-as-a-Reproducible-Research-Platform). It is our hope that this tutorial will be useful to collaborators, regardless of their experience with GitHub.
+This repository documents our attempt to leverage native GitHub functionality to conduct reproducible research platform. Why GitHub? Honestly, because it's well-suited for out-of-the-box use as a reproducible research repository.
 
-In addition to the tutorial, we have drafted some simple [guidelines](https://github.com/callahantiff/Abra-Collaboratory/wiki/My-Reproducible-Repository-Guidelines-%F0%9F%98%83) that we (and hopefully our collaborators) will follow in our quest for reproducibility. If you have suggestions, please let us know by making an issue [here](https://github.com/callahantiff/Abra-Collaboratory/issues/new?assignees=callahantiff&labels=wiki&template=wiki.md&title=Wiki%3A+Briefly+describe+task).
+If you are a new GitHub user and/or if you'd like to better understand how we leverage GitHub tools for reproducible research, we recommend that you start by reading our [Tutorial](https://github.com/callahantiff/Abra-Collaboratory/wiki/Using-GitHub-as-a-Reproducible-Research-Platform).
 
-Let us know if you decide to use this framework, we'd love to feature you as a collaborator on our [wiki](https://github.com/callahantiff/Abra-Collaboratory/wiki) and hear more about how you implemented this framework within your reserach. We also encourage you to keep the Abra-Collaboratory badge (shown above) on your repo as an indicator of your intent to conduct reproducible researrch.
+We are also in the process of drafting some simple GitHub Reproducible Research (GRR) [guidelines](https://github.com/callahantiff/Abra-Collaboratory/wiki/My-Reproducible-Repository-Guidelines-%F0%9F%98%83). Please take a look and [let us know what you think](https://github.com/callahantiff/Abra-Collaboratory/issues/new?assignees=callahantiff&labels=wiki&template=wiki.md&title=Wiki%3A+Briefly+describe+task).
+
+Let us know if you decide to use this framework, we'd love to feature you as a collaborator on our [wiki](https://github.com/callahantiff/Abra-Collaboratory/wiki) and hear more about how you implemented this framework within your research. We also encourage you to keep the Abra-Collaboratory badge (shown above) on your repo as an indicator of your intent to conduct reproducible research.
 
 ### Project Stats
 
 ![GitHub contributors](https://img.shields.io/github/contributors/callahantiff/Abra-Collaboratory.svg?color=yellow&style=flat-square) ![HitCount](http://hits.dwyl.com/callahantiff/Abra-Collaboratory.svg&style=flat-square) ![Github all releases](https://img.shields.io/github/downloads/callahantiff/Abra-Collaboratory/total.svg?color=dodgerblue&style=flat-square)
-
-
-<!------>
 
 <br>
 
@@ -23,34 +21,21 @@ Please note that we are working on automating the process of settting up a new r
 To get started, please follow the steps listed below:
 * [Fork the Project Repository](#fork-the-project-repository)
 * [Fork the Project Wiki](#fork-the-project-wiki)
+* [Update hyperlinks](#update-hyperlinks)  
 * [Add Projects Boards](#add-projects-boards)
 * [Verify Issue Templates Transfer](#verify-issue-templates-transfer)
 * [Invite Collaborators](#invite-collaborators)
 
 
 ### Fork the Project Repository
-- Open a terminal and create a local clone of the repository
-```bash
-$ git clone https://github.com/callahantiff/Abra-Collaboratory.git
-Cloning into 'Abra-Collaboratory'...
-remote: Enumerating objects: 91, done.
-remote: Counting objects: 100% (91/91), done.
-remote: Compressing objects: 100% (74/74), done.
-remote: Total 91 (delta 15), reused 0 (delta 0), pack-reused 0
-Unpacking objects: 100% (91/91), done.
-```
 
-- Create a new repository in your GitHub profile and name it "Abra-Collaboratory"
-```bash
-$ curl -u 'username' https://api.github.com/user/repos -d '{"name":"Abra-Collaboratory"}'
-```
+- From this project, fork the repository by clicking the "Fork" button in the upper right hand corner, as shown below.
 
-- Change directories to the "Abra-Collaboratory" repository you just cloned and update the origin branch to the url for the new GitHub project you just created. That's it! Before moving onto the next step, verify that you have the same files in your new repository that are in the original "Abra-Collaboratory" project.
+<img src="https://github.com/callahantiff/Abra-Collaboratory/blob/development/resources/documentation/images/wiki/forking.png">
+
+- Once forked, move to the directory where you would like to download clone your fork so you have a copy locally.
 ```bash
-$ cd Abra-Collaboratory
-$ git remote rm origin
-$ git remote add origin https://github.com/{username}/Abra-Collaboratory.git
-$ git push -u origin master
+$ git clone https://github.com/{username}/Abra-Collaboratory.git
 ```
 
 <br>
@@ -68,7 +53,7 @@ remote: Total 47 (delta 20), reused 0 (delta 0), pack-reused 0
 Unpacking objects: 100% (47/47), done.
 ```
 
-- Then, go to Wiki [here](https://github.com/username/Abra-Collaboratory/wiki) and create an empty homepage (example shown below):
+- Then, go to the Wiki in your forked repository:
 <img src="https://github.com/callahantiff/Abra-Collaboratory/blob/master/resources/documentation/images/wiki/wiki_clone.png">
 
 - Once you have created the wiki page, complete the final steps, in the order shown below.
@@ -86,6 +71,13 @@ remote: Resolving deltas: 100% (16/16), done.
 To https://github.com/{user}/Abra-Collaboratory.wiki.git
  + 4bba267...599d6ec master -> master (forced update)
 ```
+
+<br>
+
+### Update Hyperlinks
+Once you have forked the repo and the wiki page, you should then make sure that you have updated the following hyperlinks:
+- _Wiki: To Do List_ — update all hyperlinks on this page to the appropriate board in your repo
+- _Wiki: Project Meetings_ — hyperlink should point to the meetings project in your repor
 
 <br>
 
